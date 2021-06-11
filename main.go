@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-const webContent = "goroh.fpg.com:v100"
+const webContent = "goroh.fpg.com:v101"
 
 func main() {
 	http.HandleFunc("/", helloHandler)
